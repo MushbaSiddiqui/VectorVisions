@@ -25,10 +25,6 @@ const Footer = () => {
               <span className="text-[#F97316]">Vision</span>
             </h2>
           </div>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Professional embroidery digitizing services for badges, uniforms, and apparel. 
-            Custom designs with premium quality and fast turnaround.
-          </p>
           <div className="mt-4 text-gray-600">
             <p>6108 Petersburg St Anchorage, </p>
             <p>AK 99507, USA</p>
@@ -154,14 +150,6 @@ const Footer = () => {
               whileTap={{ scale: 0.9 }}
             >
               <span className="font-bold text-sm">f</span>
-            </motion.a>
-            <motion.a
-              href="#"
-              className="w-10 h-10 bg-gray-200 rounded flex items-center justify-center text-gray-700 hover:bg-orange-500 hover:text-white transition-all duration-300"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <span className="font-bold text-sm">🐦</span>
             </motion.a>
             <motion.a
               href="#"

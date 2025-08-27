@@ -263,56 +263,7 @@ const ContactPage = () => {
       </section>
 
       {/* Additional Contact Info */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              className="text-center"
-            >
-              <div className="text-4xl mb-4">🏢</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Company</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li><a href="/company" className="hover:text-[#F97316] transition-colors">About Us</a></li>
-                <li><a href="/company" className="hover:text-[#F97316] transition-colors">Mission & Vision</a></li>
-                <li><a href="/company" className="hover:text-[#F97316] transition-colors">Why Choose Us</a></li>
-                <li><a href="/services" className="hover:text-[#F97316] transition-colors">Services</a></li>
-              </ul>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-center"
-            >
-              <div className="text-4xl mb-4">📋</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Policies</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li><a href="#" className="hover:text-[#F97316] transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-[#F97316] transition-colors">Terms of Use</a></li>
-                <li><a href="#" className="hover:text-[#F97316] transition-colors">Acknowledgement</a></li>
-              </ul>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-center"
-            >
-              <div className="text-4xl mb-4">💳</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">We Accept</h3>
-              <p className="text-gray-600">All major payment methods</p>
-            </motion.div>
-          </div>
-        </div>
-      </section>
+    
     </div>
   )
 }

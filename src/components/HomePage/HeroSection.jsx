@@ -7,9 +7,11 @@ const HeroSection = () => {
   const [imagesLoaded, setImagesLoaded] = useState(false)
   
   const heroImages = [
-    '/images/hero-1.jpg',
-    '/images/hero-2.jpg',
-    '/images/hero-3.jpg'
+    '/Home/before8.jpg',
+    '/Home/before9.jpg',
+    '/Home/before11.jpg',
+    '/Home/before7.jpg',
+    '/portfolio-snapshot/patches/p3.jpg'
   ]
 
   // Preload images to prevent white flash

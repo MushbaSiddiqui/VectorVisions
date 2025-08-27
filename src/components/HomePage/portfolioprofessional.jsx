@@ -81,7 +81,7 @@ const PortfolioShowcase = () => {
       id: 11,
       category: 'digitizing',
       title: 'Custom Logo Digitizing Collection',
-      image: '/Home/Map.jpg',
+      image: '/Home/d3a.jpeg',
       type: 'single'
     },
     {
