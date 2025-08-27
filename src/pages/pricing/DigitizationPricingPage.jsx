@@ -11,41 +11,41 @@ const DigitizationPricingPage = () => {
 
   const digitizationServices = [
     {
-      title: "Basic Digitization",
+      title: "Hats and Left Chest logo Digitization",
       price: "$10",
       description: "Simple logo or artwork digitization",
       features: [
         "Single color design",
         "Basic shapes and text",
         "Standard formats (DST, EXP, PES)",
-        "2 revisions included",
-        "3-5 business days turnaround"
+        "1-2 revisions included",
+        "2-5 business days turnaround"
       ],
       bestFor: "Simple logos, basic designs"
     },
     {
-      title: "Standard Digitization",
+      title: "Mid-Size Digitization",
       price: "$25",
       description: "Complex logo or artwork digitization",
       features: [
         "Multi-color designs",
         "Complex shapes and patterns",
         "All embroidery formats",
-        "3 revisions included",
+        "1-2 revisions included",
         "2-3 business days turnaround"
       ],
       bestFor: "Medium complexity designs"
     },
     {
-      title: "Premium Digitization",
+      title: "Jacket's Back Logo Digitization",
       price: "$50 Onwards",
       description: "Professional artwork and detailed designs",
       features: [
         "Highly detailed artwork",
         "Custom stitch patterns",
         "All formats and variations",
-        "Unlimited revisions",
-        "1-2 business days turnaround",
+        "1-2 revisions",
+        "1-3 business days turnaround",
         "Priority support"
       ],
       bestFor: "Complex artwork, premium quality"
@@ -312,42 +312,6 @@ const DigitizationPricingPage = () => {
         </div>
       </section>
 
-      {/* Additional Services */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Additional <span className="text-[#F97316]">Services</span>
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Enhance your digitization project with these optional services
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {additionalServices.map((service, index) => (
-              <motion.div
-                key={service.service}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-gray-50 p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow"
-              >
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">{service.service}</h3>
-                <div className="text-2xl font-bold text-[#F97316] mb-2">{service.price}</div>
-                <p className="text-gray-600">{service.description}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Process Section */}
       <section className="py-16 bg-gray-50">

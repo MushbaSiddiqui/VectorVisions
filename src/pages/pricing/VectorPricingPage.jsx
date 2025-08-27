@@ -315,42 +315,6 @@ const VectorPricingPage = () => {
         </div>
       </section>
 
-      {/* Additional Services */}
-      <section className="py-16 bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Additional <span className="text-[#F97316]">Services</span>
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Enhance your vector art project with these optional services
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {additionalServices.map((service, index) => (
-              <motion.div
-                key={service.service}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-gray-50 p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow"
-              >
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">{service.service}</h3>
-                <div className="text-2xl font-bold text-[#F97316] mb-2">{service.price}</div>
-                <p className="text-gray-600">{service.description}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Process Section */}
       <section className="py-16 bg-gradient-to-r from-violet-50 via-purple-50 to-fuchsia-50">
