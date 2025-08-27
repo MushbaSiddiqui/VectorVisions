@@ -29,14 +29,14 @@ const PortfolioPage = () => {
         { title: "Vectorization", image: "/portfolio-snapshot/vector/d7.jpeg" },
         { title: "Vectorization", image: "/portfolio-snapshot/vector/d8.jpeg" },
         { title: "Vectorization", image: "/portfolio-snapshot/vector/d9.jpeg" },
-        { title: "Vectorization", image: "/portfolio-snapshot/vector/d10.jpeg" },
+        { title: "Vectorization", image: "/portfolio-snapshot/vector/d35.jpeg" },
         { title: "Vectorization", image: "/portfolio-snapshot/vector/d13.jpeg" },
         { title: "Vectorization", image: "/portfolio-snapshot/vector/d14.jpeg" },
         { title: "Vectorization", image: "/portfolio-snapshot/vector/d15.jpeg" },
         { title: "Vectorization", image: "/portfolio-snapshot/vector/d16.jpeg" },
         { title: "Vectorization", image: "/portfolio-snapshot/vector/d17.jpeg" },
         { title: "Vectorization", image: "/portfolio-snapshot/vector/d18.jpeg" },
-        { title: "SVectorization", image: "/portfolio-snapshot/vector/d19.jpeg" },
+        { title: "Vectorization", image: "/portfolio-snapshot/vector/d19.jpeg" },
         { title: "Vectorization", image: "/portfolio-snapshot/vector/d20.jpeg" },
         { title: "Vectorization", image: "/portfolio-snapshot/vector/d21.jpeg" },
         { title: "Vectorization", image: "/portfolio-snapshot/vector/d22.jpeg" },
@@ -71,8 +71,7 @@ const PortfolioPage = () => {
         { title: "Digitization", image: "/portfolio-snapshot/digitization/d12.jpeg" },
         { title: "Digitization", image: "/portfolio-snapshot/digitization/d13.jpeg" },
         { title: "Digitization", image: "/portfolio-snapshot/digitization/d14.jpeg" },
-        { title: "Digitization", image: "/portfolio-snapshot/digitization/d15.jpeg" },
-        { title: "Digitization", image: "/portfolio-snapshot/digitization/d16.jpeg" },
+        { title: "Digitization", image: "/portfolio-snapshot/digitization/d15.jpeg" }
         
       ]
     },
